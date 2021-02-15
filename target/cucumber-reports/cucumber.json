@@ -1,0 +1,118 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 15,
+        "name": "To Test Login Page",
+        "description": "",
+        "id": "verify-login-functionality;to-test-login-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 36801514300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Launch the browser",
+            "match": {
+              "location": "LoginPageTest.launch_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6032455200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on log in button",
+            "match": {
+              "location": "LoginPageTest.i_click_on_log_in_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5771101700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter username \"chatterjeeamit41@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "chatterjeeamit41@gmail.com",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginPageTest.i_enter_username(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5609505900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter password \"Testing12345$\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Testing12345$",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginPageTest.i_enter_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5364975500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on login button",
+            "match": {
+              "location": "LoginPageTest.i_click_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 24403184600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I verify the title of the page",
+            "match": {
+              "location": "LoginPageTest.i_verify_the_title_of_the_page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@LoginPage"
+          }
+        ]
+      }
+    ],
+    "name": "Verify login functionality",
+    "description": "I want to use this template for my feature file",
+    "id": "verify-login-functionality",
+    "keyword": "Feature",
+    "uri": "loginfunctionality.feature"
+  }
+]
