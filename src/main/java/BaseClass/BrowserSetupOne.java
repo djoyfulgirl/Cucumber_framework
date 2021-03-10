@@ -25,7 +25,7 @@ public class BrowserSetupOne {
 			// Set the path for chromedriver.exe
 			String path = System.getProperty("user.dir");
 			System.out.println(path);
-			System.setProperty("webdriver.chrome.driver", path + "\\drivers\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", path + "\\config\\chromedriver.exe");
 			driver = new ChromeDriver();
 		}
 		// If the browser is IE

@@ -129,14 +129,14 @@ formatter.match({
   "location": "LoginPageTest.launch_the_browser()"
 });
 formatter.result({
-  "duration": 36801514300,
+  "duration": 42480056301,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginPageTest.i_click_on_log_in_button()"
 });
 formatter.result({
-  "duration": 6032455200,
+  "duration": 5712943000,
   "status": "passed"
 });
 formatter.match({
@@ -149,7 +149,7 @@ formatter.match({
   "location": "LoginPageTest.i_enter_username(String)"
 });
 formatter.result({
-  "duration": 5771101700,
+  "duration": 5441275499,
   "status": "passed"
 });
 formatter.match({
@@ -162,21 +162,21 @@ formatter.match({
   "location": "LoginPageTest.i_enter_password(String)"
 });
 formatter.result({
-  "duration": 5609505900,
+  "duration": 5525553300,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginPageTest.i_click_on_login_button()"
 });
 formatter.result({
-  "duration": 5364975500,
+  "duration": 5241260200,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginPageTest.i_verify_the_title_of_the_page()"
 });
 formatter.result({
-  "duration": 24403184600,
+  "duration": 26012339300,
   "status": "passed"
 });
 });

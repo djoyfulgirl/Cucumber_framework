@@ -51,6 +51,13 @@ public class LoginPage {
 	public void getLoginButton(){
 		LoginButton.click();
 	}
+	
+	@FindBy(xpath="//body[1]/div[1]/div[2]/a[1]")
+	private WebElement ToastButton;
+	
+	public void getToastButton(){
+		ToastButton.click();
+	}
 
 	public void loginToPage() throws IOException, InterruptedException{
 		fileInput = new FileInputStream(filepath);

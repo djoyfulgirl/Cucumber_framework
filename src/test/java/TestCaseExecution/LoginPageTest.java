@@ -28,6 +28,8 @@ public class LoginPageTest {
 		 driver = BrowserSetupOne.StartBrowser(prop.getProperty("browserName"), prop.getProperty("url"));
 		  lp= new LoginPage(driver);
 		  lp.pause(5000);
+		  lp.getToastButton();
+		  lp.pause(5000);
 	}
 
 	@Then("^I click on log in button$")
