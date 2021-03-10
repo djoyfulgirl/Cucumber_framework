@@ -24,7 +24,7 @@ monochrome =true //display the console output in a proper readable format
 
 
 public class TestRunner extends AbstractTestNGCucumberTests{
-    @AfterClass
+   /* @AfterClass
     public static void writeExtentReport() {
     	String reportConfigPath = System.getProperty("user.dir")+"\\config\\extent-config.xml";
         Reporter.loadXMLConfig(new File(reportConfigPath));
@@ -33,7 +33,7 @@ public class TestRunner extends AbstractTestNGCucumberTests{
         Reporter.setSystemInfo("Selenium", "3.7.0");
         Reporter.setSystemInfo("Maven", "3.5.2");
         Reporter.setSystemInfo("Java Version", "1.8.0_151");
-    }
+    }*/
 }
 
 
